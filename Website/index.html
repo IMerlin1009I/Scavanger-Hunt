@@ -8,11 +8,19 @@
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
+        <style>
+            .stretch{
+                width: 100%;
+                height: 50rem;
+                object-fit: cover;
+            }
+        </style>
+
         <title>Hello, world!</title>
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-md navbar-light sticky-top bg-light">
+            <nav class="navbar navbar-expand-md fixed-top navbar-light" style="background-color: rgba(245, 245, 245, 0.9);">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">The Schnitzler</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,9 +48,46 @@
 
         <main>
             <div class="card bg-light text-black">
-                <img class="card-img" src="placeholder.png" style="width: 100%; max-height: 50rem;" alt="THIS IS A PLACEHOLDER">
-                <div class="card-img-overlay align-self-center text-center">
-                    <h1 class="card-tex"> Discover an Innovative <div class="text-primary"> Approach </div> to Exhibitions </h1> 
+                <img class="card-img img-fluid mx-auto stretch mt-4" src="images/index.jpeg" alt="THIS IS A PLACEHOLDER">
+
+                <div class="card-img-overlay justify-content-center d-flex align-items-center">
+                    <div>
+                        <p class="card-text fs-1"> Discover an Innovative </p>
+                        <p class="card-text fs-1" style="color: blueviolet;"> Approach </p>
+                        <p class="card-text fs-1">to Exhibitions </p>
+                        <button type="button" class="btn btn-info">FIND OUT MORE</button>
+                    </div>   
+                </div>
+            </div>
+
+            <div class="card bg-light text-black md-1">
+                <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec ex ac enim hendrerit imperdiet. Maecenas sit amet efficitur lacus, a consequat nisi. Fusce vel hendrerit elit. Mauris vehicula vehicula scelerisque. Pellentesque id egestas magna. Praesent maximus ultrices odio, euismod condimentum dui tristique id. Nulla cursus velit lectus, at interdum risus maximus vitae. Aenean efficitur erat nec lectus bibendum, sed mollis neque lacinia. Sed quis varius ligula. Duis consectetur turpis vel ligula lobortis varius. Mauris ante arcu, aliquam nec molestie ac, mattis a ante. Curabitur tincidunt odio ac euismod placerat. Integer non erat a ligula porta aliquet. 
+                </div>
+            </div>
+
+            <div class="card bg-light text-black">
+                <div class="card-body">
+                    Duis a lorem in massa lobortis facilisis. Cras vulputate enim id auctor tincidunt. Cras vel eros ornare, sollicitudin enim vitae, porta leo. Etiam in mi ac risus bibendum gravida at sed ligula. Curabitur nec lectus eleifend, iaculis neque a, sagittis diam. Sed erat est, euismod vel ornare id, posuere quis quam. Sed vitae mauris ex. Aenean sit amet suscipit orci. Donec mollis feugiat elit at ultrices. Donec non sem maximus, congue nibh id, consectetur ligula. Mauris at eros laoreet, lacinia magna non, venenatis est. Ut ligula leo, faucibus nec tempus a, ultricies et nulla. In hac habitasse platea dictumst. Phasellus eu ex eget velit euismod cursus et eget libero. Morbi accumsan magna ligula, in rhoncus mi laoreet ut. 
+                </div>
+            </div>
+
+            <div class="card bg-light text-black">
+                <div class="card-body">
+                    Aliquam et mi sagittis, varius urna et, fermentum mi. Phasellus efficitur tortor eu urna dapibus, a imperdiet ante laoreet. Nam et dapibus nisl, nec rutrum neque. In pretium dui ac scelerisque gravida. Aliquam ligula mauris, cursus non lacinia ut, bibendum quis mauris. Donec aliquet lorem eu diam venenatis rhoncus. Pellentesque vulputate porttitor risus sed hendrerit. Sed eu elit bibendum, facilisis neque non, accumsan mi. Etiam scelerisque urna mauris, ornare pharetra ligula volutpat id. Mauris eu nisi a ex vulputate mollis ac ac nisl. Suspendisse vel tristique odio. Donec elit odio, rhoncus sit amet eros sed, fringilla suscipit nisl. Morbi in malesuada urna, id efficitur eros. Duis at diam sit amet mauris gravida tristique. 
+                </div>
+            </div>
+
+            <div class="card bg-light text-black">
+                <div class="card-body">
+                    Sed sem nibh, auctor a consequat vel, consequat non nisi. Vivamus dignissim nec turpis sit amet cursus. In a ipsum est. Fusce cursus aliquet nisl ut molestie. Cras ut felis et tellus tempus blandit. Nullam tempor, augue a maximus fermentum, risus ex venenatis nisi, et ultrices mi metus sit amet risus. Donec ac ipsum convallis, condimentum nulla mattis, sagittis sem. Nullam bibendum a libero et mattis. Vivamus in nisi at lacus cursus tristique at ac massa. 
+                </div>
+            </div>
+
+            <div class="card bg-light text-black">
+                <div class="card-body">
+                    Morbi ultrices velit et consectetur sollicitudin. Suspendisse potenti. Etiam varius fermentum nibh, ut finibus libero pretium eu. Aliquam volutpat nunc non nulla aliquam, vitae luctus ante interdum. Nunc quis feugiat erat, et scelerisque massa. In leo justo, pretium non porta eu, tincidunt a velit. Pellentesque a enim egestas, pretium nunc nec, ullamcorper massa. Pellentesque vehicula nisi rhoncus, ultrices metus vitae, scelerisque purus. 
+                    
                 </div>
             </div>
         </main>
