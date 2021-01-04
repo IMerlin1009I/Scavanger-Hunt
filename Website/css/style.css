@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 .stretch{
     width: 100%;
@@ -9,6 +9,7 @@
 
 body
 {
+    font-family: 'Quicksand', sans-serif;
     background-color: rgb(255, 255, 255);
     line-height: 1.6;
     color: rgb(46, 45, 45);
@@ -22,8 +23,6 @@ body
 /*Main text(index,join,contact)*/
 .card-text
 {
-    font-family: "Tahoma";
-    font-weight: 300;
     color: rgb(48, 12, 12);
     text-shadow: 0 5px 15px rgba(53, 53, 53, 0.514);
     text-align: center;
@@ -33,8 +32,6 @@ body
 /*Main text(about)*/
 .card-text-about
 {
-    font-family: "Tahoma";
-    font-weight: 300;
     color: rgb(48, 12, 12);
     text-shadow: 0 5px 15px rgba(53, 53, 53, 0.514);
     text-align: center;
@@ -167,11 +164,6 @@ body
 }
 
 
-.stretch{
-    width: 100%;
-    height: 50rem;
-    object-fit: cover;
-}
 
 
 
