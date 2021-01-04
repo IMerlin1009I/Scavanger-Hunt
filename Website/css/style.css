@@ -135,20 +135,25 @@ body
     font-size: 25px;
     line-height: 1;
     text-align: center;
+    padding: 5%;
+}
+
+.join-layout
+{
+    margin-top:-100px;
 }
 
 /*transparent text background*/
 .white-box
 {
     background-color: rgba(255, 255, 255, 0.85);
-    padding: 25px;
+    padding: 2%;
 
 }
 
-
 .form-group
 {
-    width: 500px;
+    width: auto;
     text-align: center;
     margin: 0 auto;
 }
