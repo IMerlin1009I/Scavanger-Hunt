@@ -94,8 +94,11 @@ body
 .card-body-about
 {
     text-align: left;
+    /*
     width: 1000px;
     margin-top: 10px;
+    */
+    padding: 5%;
 }
 
 
