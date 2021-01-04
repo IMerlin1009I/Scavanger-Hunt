@@ -58,8 +58,18 @@ body
 .contacts
 {
     text-align: center;
+    padding: 5%;
 
 }
+
+/*formatting for the form on the contact page*/
+.contact-form
+{
+    text-align: center;
+    padding: 5%;
+}
+
+
 
 
 /*tel and email(contact)*/
