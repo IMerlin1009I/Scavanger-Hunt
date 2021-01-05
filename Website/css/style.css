@@ -153,7 +153,7 @@ body
     border-color: #6e25b3;
 }
 .btn-check:checked + .btn-purple:focus, .btn-check:active + .btn-purple:focus, .btn-purple:active:focus, .btn-purple.active:focus, .show > .btn-purple.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+    box-shadow: 0 0 0 0.25rem rgba(170, 41, 245, 0.5);
 }
 .btn-purple:disabled, .btn-purple.disabled {
     color: #fff;
