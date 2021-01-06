@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+.stretch{
+    width: 100%;
+    height: 50rem;
+    object-fit: cover;
+}
+
+
+body
+{
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(255, 255, 255);
+    line-height: 1.6;
+    color: rgb(46, 45, 45);
+    margin: 0;
+
+    margin-top: 45px;
+}
+
+
+
+/*Main text(index,join,contact)*/
+.card-text
+{
+    color: rgb(48, 12, 12);
+    text-shadow: 0 5px 15px rgba(53, 53, 53, 0.514);
+    text-align: center;
+}
+
+
+/*Main text(about)*/
+.card-text-about
+{
+    color: rgb(48, 12, 12);
+    text-shadow: 0 5px 15px rgba(53, 53, 53, 0.514);
+    text-align: center;
+    margin-left: 20px;
+
+}
+
+
+
+
+/*button(index,join,contact,about)*/
+.button
+{
+    text-align: center;
+    color: blueviolet;
+}
+
+
+
+/*Contact info text(contact)*/
+.contacts
+{
+    text-align: center;
+    padding: 5%;
+
+}
+
+.contact-cards
+{
+    padding: 2%;
+}
+
+.contact-card-body
+{
+    padding: 2%; 
+}
+
+/*formatting for the form on the contact page*/
+.contact-form
+{
+    text-align: center;
+    padding: 5%;
+}
+
+
+
+
+/*tel and email(contact)*/
+.telandemail
+{
+    text-align: center;
+}
+
+
+/*about img block(about)*/
+.aboutimg
+{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    /*
+    width: 1000px;
+    height: 1260px;
+    margin-left: 1040px;
+    */
+}
+
+
+/*card body(about)*/
+.card-body-about
+{
+    text-align: left;
+    /*
+    width: 1000px;
+    margin-top: 10px;
+    */
+    padding: 2%;
+    margin: 10px;
+}
+
+/* This padding is for the div which is around the cards*/
+.about-cards
+{
+    padding: 2%;
+}
+
+/*This is just used to have a gap between each card*/
+.spacing-card
+{
+    height: 15px;
+}
+
+/*let us email text*/
+.let-us-email
+{
+    font: arial;
+    font-size: 25px;
+    line-height: 1;
+    text-align: center;
+    padding: 5%;
+}
+
+.join-layout
+{
+    margin-top:-100px;
+}
+
+/*transparent text background*/
+.white-box
+{
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 2%;
+
+}
+
+.form-group
+{
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.email-button
+{
+    text-align: right;
+    color: blueviolet;
+    margin: -38px -85px;
+  
+}
+
+
+
+
+
+.btn-purple {
+    color: #fff;
+    background-color: #8a2be2;
+    border-color: #8a2be2;
+}
+.btn-purple:hover {
+    color: #fff;
+    background-color: #6e25b3;
+    border-color: #6e25b3;
+}
+.btn-check:focus + .btn-purple, .btn-purple:focus {
+    color: #fff;
+    background-color: #6e25b3;
+    border-color: #6e25b3;
+    box-shadow: 0 0 0 0.25rem rgba(146, 9, 226, 0.5);
+}
+.btn-check:checked + .btn-purple, .btn-check:active + .btn-purple, .btn-purple:active, .btn-purple.active, .show > .btn-purple.dropdown-toggle {
+    color: #fff;
+    background-color: #6e25b3;
+    border-color: #6e25b3;
+}
+.btn-check:checked + .btn-purple:focus, .btn-check:active + .btn-purple:focus, .btn-purple:active:focus, .btn-purple.active:focus, .show > .btn-purple.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(170, 41, 245, 0.5);
+}
+.btn-purple:disabled, .btn-purple.disabled {
+    color: #fff;
+    background-color: #8a2be2;
+    border-color: #8a2be2;
+}
