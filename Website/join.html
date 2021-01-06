@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="css/style.css">
 
 
-        <title>Hello, world!</title>
+        <title>Carreer</title>
     </head>
     <body>
         <!--Navigation bar--> 
@@ -26,17 +26,17 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
                         <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
                             <li class="nav-item active">
-                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" aria-current="page" href="join.html">Carreer</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Carreer</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="contact.html">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -49,28 +49,40 @@
                     <img class="card-img img-fluid mx-auto stretch mt-4" src="img/4.jpeg" alt="THIS IS A PLACEHOLDER">
     
                     <div class="card-img-overlay justify-content-center d-flex align-items-center">
-                        <div class="white-box">
-                            <p class="card-text fs-1" style="color: white;">Want to Join Us?</p>
-                            <p class="card-text fs-1" style="color: blueviolet;">  We'll Be Glad To Have You! </p>
-                    
+                        <div class="join-layout">
+                            <div class="white-box">
+                                <p class="card-text fs-1" style="color: white;">Want to Join Us?</p>
+                                <p class="card-text fs-1" style="color: blueviolet;">  We'll Be Glad To Have You! </p>
+                            </div>
+
+                            <div class="spacing-card"></div>
+
+                            <div class="bd-masthead mb-3 container-md" id="content-part">
+                                <div class="card bg-white text-black md-1">
+                                    <div class= "let-us-email">
+                                        <p  style="color: blueviolet;">  
+                                            Currently, there are no job opennings. <br><br>
+                                            Check back later or let us e-mail you.
+                                        </p>
+                                                            
+                                        <form>
+                                            <div class="form-group">
+                                                <label> Email </label> <br>
+                                                <input type="email" class="form-control" id="join-email" placeholder="example@email.com"> <br>
+                                                <div class= "join-email-button"><button type="button" class="btn btn-purple">SUBMIT</button></div>
+                                            </div>   
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
-                </div>
+
+                    
                 </div>
     
-                <div class= "let-us-email">
-                    <p  style="color: blueviolet;">  Currently, there are no job opennings. </p>
-                    <p  style="color: blueviolet;">  Check back later or let us e-mail you. </p>
-                   
-                    <form>
-                        <div class="form-group">
-                          <label for="exampleInputEmail1">Email address</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                          <div class= "email-button"><button type="button" class="btn btn-purple">SUBMIT</button></div>
-                          
-                        </div>   
-                        </div>
-                        
-                      </form>
+                
         </main>
     
             <!-- Optional JavaScript; choose one of the two! -->
