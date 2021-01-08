@@ -62,13 +62,19 @@
                                             Check back later or let us e-mail you.
                                         </p>
                                                             
-                                        <form>
+                                        <form id="join-form">
                                             <div class="form-group">
                                                 <label> Email </label> <br>
                                                 <input type="email" class="form-control" id="join-email" placeholder="example@email.com"> <br>
-                                                <div class= "join-email-button"><button type="button" class="btn btn-purple">SUBMIT</button></div>
+                                                <div class= "join-email-button"><button type="button" class="btn btn-purple" onclick="submitJoin()" value="Reset form">Submit</button></div>
                                             </div>   
                                         </form>
+
+                                        <script> 
+                                            function submitJoin() {
+                                                document.getElementById("join-form").reset(); 
+                                            } 
+                                        </script> 
                                     </div>
                                 </div>
                             </div>

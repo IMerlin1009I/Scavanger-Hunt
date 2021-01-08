@@ -58,18 +58,18 @@ body
 .contacts
 {
     text-align: center;
-    padding: 5%;
+    padding: 2%;
 
 }
 
 .contact-cards
 {
-    padding: 2%;
+    padding: 1%;
 }
 
 .contact-card-body
 {
-    padding: 2%; 
+    padding: 1%; 
 }
 
 /*formatting for the form on the contact page*/
