@@ -42,12 +42,7 @@ body
 
 
 
-/*button(index,join,contact,about)*/
-.button
-{
-    text-align: center;
-    color: blueviolet;
-}
+
 
 
 
@@ -177,22 +172,4 @@ body
     background-color: #6e25b3;
     border-color: #6e25b3;
 }
-.btn-check:focus + .btn-purple, .btn-purple:focus {
-    color: #fff;
-    background-color: #6e25b3;
-    border-color: #6e25b3;
-    box-shadow: 0 0 0 0.25rem rgba(146, 9, 226, 0.5);
-}
-.btn-check:checked + .btn-purple, .btn-check:active + .btn-purple, .btn-purple:active, .btn-purple.active, .show > .btn-purple.dropdown-toggle {
-    color: #fff;
-    background-color: #6e25b3;
-    border-color: #6e25b3;
-}
-.btn-check:checked + .btn-purple:focus, .btn-check:active + .btn-purple:focus, .btn-purple:active:focus, .btn-purple.active:focus, .show > .btn-purple.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.25rem rgba(170, 41, 245, 0.5);
-}
-.btn-purple:disabled, .btn-purple.disabled {
-    color: #fff;
-    background-color: #8a2be2;
-    border-color: #8a2be2;
-}
+
