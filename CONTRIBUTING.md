@@ -7,7 +7,7 @@ email, or any other method with the owners of this repository before making a ch
 ### How to contribute:
 1. Fork the project
 2. Make the changes you want in your fork
-3. Make a merge request
+3. Submit a pull request
 
 ### Our Standards
 
