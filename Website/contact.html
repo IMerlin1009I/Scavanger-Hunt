@@ -65,7 +65,7 @@
                                     <h2> Contact us now:  </h2>
                                     <p> If you have any questions please don’t hesitate to contact us. </p>
                                     
-                                    <form> 
+                                    <form id="contact-form"> 
                                         <label> Email </label>
                                         <br>
                                         <input type="email" id="form-email" name="form-email" placeholder="example@email.com">
@@ -78,8 +78,15 @@
                                         <br>
                                         <textarea name="form-message" cols="35" rows="5" placeholder="Your message to us"></textarea>
                                         <!-- Button has no functionality -->
-                                        <div class= "button"><button type="button" class="btn btn-purple"> Submit </button></div>
-                                    </form>                    
+                                        <div class= "button"><button type="button" class="btn btn-purple" onclick="submitContact()" value="Reset form"> Submit </button></div>
+                                    </form>             
+                                    
+                                    <script> 
+                                        function submitContact() { 
+                                            //find the right form and reset it
+                                            document.getElementById("contact-form").reset();
+                                        } 
+                                    </script> 
                                 </div>
                             </div>
                         </div>
