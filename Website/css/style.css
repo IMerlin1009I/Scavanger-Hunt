@@ -80,8 +80,9 @@ body
     padding: 5%;
 }
 
-.form-message
-{
+.form-contact-inputs
+{   
+    max-width: 450px;
     width: 100%;
 }
 
