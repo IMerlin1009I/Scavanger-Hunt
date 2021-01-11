@@ -38,11 +38,22 @@ body
 }
 
 
+/*Scaling for the Application Image on the index.html page*/
+.app-img
+{
+    max-width:100%;
+    max-height:100%;
+    object-fit: contain
+}
 
+.app-badge-div
+{
+    text-align: center;
+}
 
-
-
-
+.app-img-div{
+    padding: 1%;
+}
 
 /*Contact info text(contact)*/
 .contacts
