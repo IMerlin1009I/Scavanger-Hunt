@@ -80,8 +80,10 @@ body
     padding: 5%;
 }
 
-
-
+.form-message
+{
+    width: 100%;
+}
 
 /*tel and email(contact)*/
 .telandemail
